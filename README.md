@@ -1,75 +1,24 @@
-# Nuxt 3 Minimal Starter
+![Nuxt Logo](https://st.timeweb.com/cloud-static/apps-logo/nuxt.svg)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Nuxt
 
-## Setup
+Пример приложения [Nuxt](https://nuxt.com/), которое можно развернуть в **Timeweb Cloud Apps** без настройки.
 
-Make sure to install the dependencies:
+:tada: [Демо](https://timeweb-cloud-app-example-nuxt-79e2.twc1.net)
+
+:rocket: [Создать свой Apps](https://timeweb.cloud/my/apps/create)
+
+:books: [Документация Timeweb Cloud Apps](https://timeweb.cloud/docs/apps)
+
+## <a name="dev"></a>Локальный запуск проекта
 
 ```bash
-# npm
+# установка зависимостей
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# запуск в дев режиме с отслеживанием изменений
 npm run dev
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
+# сборка для продакшн с минификацией
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
